@@ -18,10 +18,10 @@
 	    
 		
 		<section data-ng-show="true" data-ng-controller="resumeController as cv" class="container-fluid text-center">
-		    <div data-ng-repeat="exp in cv.exps" data-ng-show="exp.isVisible" class="panel panel-default">
+		    <div data-ng-repeat="exp in cv.exps" data-ng-show="exp.isVisible" class="panel panel-default text-left">
               <div class="panel-heading">
                 <h3 class="panel-title">
-                    {{exp.name}}. <small> {{exp.startDate}} </small> <small data-ng-show="{{exp.endDate}}" > - {{exp.startDate}} </small> <span data-ng-hide="{{exp.endDate}}" class="label label-info"><small>Current</small></span>
+                    {{exp.name}}. <small> {{exp.startDate}} </small> <small data-ng-show="{{exp.endDate}}" > - {{exp.startDate}} </small> <span data-ng-hide="{{exp.endDate}}" class="label label-info">Current</span>
                 </h3>
               </div>
               <div class="panel-body">
