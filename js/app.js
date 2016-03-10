@@ -12,8 +12,8 @@
 			endDate: null,
 			description: '',
 			tags: ['VanillaJS','OOP','SCRUM','API'],
-            longdesc: 'Scrum Master & Front-end core developer at a 4 devs and 2 QAs. Helping POs writting stories and teams to improve agile process.',
-            techs: '',
+            longdesc: 'Scrum Master & Front-end core developer at a 4 devs and 2 QAs. Helping POs writting stories and teams to improve agile process and web performance.',
+            techs: 'VanillaJS, Handlebars templates, AJAX, Jenkins automation',
             achvs: '',
 			isVisible: true
 		},
@@ -23,7 +23,7 @@
 			endDate: '02/2014',
 			description: '',
 			tags: ['jQuery','jQueryMobile','Handlebars','API','JSON'],
-            longdesc: 'Front-end app developer.',
+            longdesc: 'Front-end app developer for desktop and mobile web.',
             techs: '',
             achvs: '',
 			isVisible: true
