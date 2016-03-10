@@ -22,7 +22,7 @@
 		    <div data-ng-repeat="exp in cv.exps" data-ng-show="exp.isVisible" class="panel panel-default">
               <div class="panel-heading">
                 <h3 class="panel-title">
-                    {{exp.name}}. <small> {{exp.startDate}} </small> <small data-ng-show="{{exp.endDate}}" > - {{exp.startDate}} </small> <span data-ng-hide="{{exp.endDate}}" class="label label-info">Current</span>
+                    {{exp.name}}. <date><small> {{exp.startDate}} </small> <small data-ng-show="{{exp.endDate}}" > - {{exp.startDate}} </small></date> <span data-ng-hide="{{exp.endDate}}" class="label label-info">Current</span>
                 </h3>
               </div>
               <div class="panel-body">
