@@ -31,15 +31,15 @@
 				</p>
 				<section data-ng-controller="panelController as panel">
 					<nav class="nav nav-tabs">
-						<span role="presentation" data-ng-class="{ active:panel.isSelected(1) }">
+						<li role="presentation" data-ng-class="{ active:panel.isSelected(1) }">
 							<a href="" data-ng-click="panel.selectTab(1)">Description</a>
-						</span>
-						<span role="presentation" data-ng-class="{ active:panel.isSelected(2) }">
+						</li>
+						<li role="presentation" data-ng-class="{ active:panel.isSelected(2) }">
 							<a href="" data-ng-click="panel.selectTab(2)">Technologies</a>
-						</span>
-						<span role="presentation" data-ng-class="{ active:panel.isSelected(3) }">
+						</li>
+						<li role="presentation" data-ng-class="{ active:panel.isSelected(3) }">
 							<a href="" data-ng-click="panel.selectTab(3)">Achievements</a>
-						</span>
+						</li>
 					</nav>
 
 					<div class="panel" data-ng-show="panel.isSelected(1)">
