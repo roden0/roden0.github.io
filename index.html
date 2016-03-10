@@ -21,16 +21,12 @@
 		    <div data-ng-repeat="exp in cv.exps" data-ng-show="exp.isVisible" class="panel panel-default">
               <div class="panel-heading">
                 <h3 class="panel-title">
-                    {{exp.name}}. <small> {{exp.startDate}} </small> <small data-ng-show="{{exp.endDate}}" > - {{exp.startDate}} </small> <span data-ng-hide="{{exp.endDate}}" class="label label-default"><small>Current</small></span>
+                    {{exp.name}}. <small> {{exp.startDate}} </small> <small data-ng-show="{{exp.endDate}}" > - {{exp.startDate}} </small> <span data-ng-hide="{{exp.endDate}}" class="label label-info"><small>Current</small></span>
                 </h3>
               </div>
               <div class="panel-body">
                 <p>
 					<span class="lead">{{exp.description}}</span>
-
-					<span class="tags-well">
-						<span data-ng-repeat="t in exp.tags">{{t}},</span>
-					</span>
 				</p>
 				<section data-ng-controller="panelController as panel">
 					<nav class="nav nav-tabs">
@@ -58,6 +54,11 @@
 						<blockquote>None yet</blockquote>
 					</div>
 				</section>
+              </div>
+              <div class="panel-footer">
+                <div class="well well-sm">
+                    <span data-ng-repeat="t in exp.tags">{{t}},</span>
+                </div>
               </div>
             </div>
 		</section>
