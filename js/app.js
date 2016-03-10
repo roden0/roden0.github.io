@@ -12,7 +12,9 @@
 			endDate: null,
 			description: '',
 			tags: ['VanillaJS','OOP','SCRUM','API'],
-            longdec: 'Scrum Master & Front-end core developer at a 4 devs and 2 QAs. Helping POs writting stories and teams to improve agile process.',
+            longdesc: 'Scrum Master & Front-end core developer at a 4 devs and 2 QAs. Helping POs writting stories and teams to improve agile process.',
+            techs: '',
+            achvs: '',
 			isVisible: true
 		},
 		{
@@ -21,7 +23,9 @@
 			endDate: '02/2014',
 			description: '',
 			tags: ['jQuery','jQueryMobile','Handlebars','API','JSON'],
-            longdec: 'Front-end app developer.',
+            longdesc: 'Front-end app developer.',
+            techs: '',
+            achvs: '',
 			isVisible: true
 		}
 

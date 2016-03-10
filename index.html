@@ -44,26 +44,29 @@
 
 					<div class="panel" data-ng-show="panel.isSelected(1)">
 						<h4>Description</h4>
-						<blockquote>None yet</blockquote>
+						<blockquote>{{exp.longdesc}}</blockquote>
 					</div>
 					<div class="panel" data-ng-show="panel.isSelected(2)">
 						<h4>Technologies</h4>
-						<blockquote>None yet</blockquote>
+						<blockquote>{{exp.techs}}</blockquote>
 					</div>
 					<div class="panel" data-ng-show="panel.isSelected(3)">
 						<h4>Achievements</h4>
-						<blockquote>None yet</blockquote>
+						<blockquote>{{exp.achvs}}</blockquote>
 					</div>
 				</section>
               </div>
               <div class="panel-footer">
                 <div class="well well-sm">
-                    <span data-ng-repeat="t in exp.tags">{{t}},</span>
+                   <span  data-ng-repeat="t in exp.tags" class="label label-default">{{t}}</span>
                 </div>
               </div>
             </div>
 		</section>
 		
+		<footer class="text-center">
+		    This site was done with Angular v1.3
+		</footer>
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
