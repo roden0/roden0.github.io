@@ -12,8 +12,7 @@
         <nav class="navbar navbar-default navbar-static-top">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#">Work experience</a>
-              <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+              <a class="navbar-brand" href="#">Work experience <span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
             </div>
           </div>
         </nav>
@@ -33,16 +32,13 @@
 				<section data-ng-controller="panelController as panel">
 					<nav class="nav nav-tabs">
 						<li role="presentation" data-ng-class="{ active:panel.isSelected(1) }">
-						    <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-							<a href="" data-ng-click="panel.selectTab(1)">Description</a>
+							<a href="" data-ng-click="panel.selectTab(1)"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Description</a>
 						</li>
 						<li role="presentation" data-ng-class="{ active:panel.isSelected(2) }">
-						    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-							<a href="" data-ng-click="panel.selectTab(2)">Technologies</a>
+							<a href="" data-ng-click="panel.selectTab(2)"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Technologies</a>
 						</li>
 						<li role="presentation" data-ng-class="{ active:panel.isSelected(3) }">
-						    <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
-							<a href="" data-ng-click="panel.selectTab(3)">Achievements</a>
+							<a href="" data-ng-click="panel.selectTab(3)"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Achievements</a>
 						</li>
 					</nav>
 
