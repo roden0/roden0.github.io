@@ -17,8 +17,8 @@
         </nav>
 	    
 		
-		<section data-ng-show="true" data-ng-controller="resumeController as cv" class="container-fluid text-center">
-		    <div data-ng-repeat="exp in cv.exps" data-ng-show="exp.isVisible" class="panel panel-default text-left">
+		<section data-ng-show="true" data-ng-controller="resumeController as cv" class="container-fluid">
+		    <div data-ng-repeat="exp in cv.exps" data-ng-show="exp.isVisible" class="panel panel-default">
               <div class="panel-heading">
                 <h3 class="panel-title">
                     {{exp.name}}. <small> {{exp.startDate}} </small> <small data-ng-show="{{exp.endDate}}" > - {{exp.startDate}} </small> <span data-ng-hide="{{exp.endDate}}" class="label label-info">Current</span>
