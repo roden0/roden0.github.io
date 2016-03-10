@@ -18,11 +18,14 @@
 	    
 		
 		<section data-ng-show="true" data-ng-controller="resumeController as cv" class="container-fluid text-center">
-			<article data-ng-repeat="exp in cv.exps" data-ng-show="exp.isVisible" class="col-md-8 text-left">
-				<h2>
-					{{exp.name}}. <small> {{exp.startDate}} </small> <small data-ng-show="{{exp.endDate}}" > - {{exp.startDate}} </small> <span data-ng-hide="{{exp.endDate}}" class="label label-default">Current</span>
-				</h2>
-				<p>
+		    <div data-ng-repeat="exp in cv.exps" data-ng-show="exp.isVisible" class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                    {{exp.name}}. <small> {{exp.startDate}} </small> <small data-ng-show="{{exp.endDate}}" > - {{exp.startDate}} </small> <span data-ng-hide="{{exp.endDate}}" class="label label-default"><small>Current</small></span>
+                </h3>
+              </div>
+              <div class="panel-body">
+                <p>
 					<span class="lead">{{exp.description}}</span>
 
 					<span class="tags-well">
@@ -55,7 +58,8 @@
 						<blockquote>None yet</blockquote>
 					</div>
 				</section>
-			</article>
+              </div>
+            </div>
 		</section>
 		
 
