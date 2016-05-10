@@ -7,7 +7,7 @@
 			endDate: null,
 			description: 'Front-end developer',
 			tags: ['VanillaJS', 'OOP', 'SCRUM', 'API'],
-            longdesc: 'Scrum Master & Front-end core developer at a 4 devs and 2 QAs. Helping POs writting stories and teams to improve agile process and web performance.',
+            longdesc: 'Scrum Master & Front-end architecture core developer at a 4 devs and 2 QAs team. Helping POs writting stories and teams to improve agile process and web performance.',
             techs: 'VanillaJS, Handlebars templates, AJAX, Jenkins automation',
             achvs: 'New core rendering system from response to callback-driven taylor-made framework. Transition to responsive site and core evolution to modular ES6.',
 			isVisible: true
